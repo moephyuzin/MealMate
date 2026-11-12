@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MealMate!"
+        android:textSize="24sp"
+        android:layout_marginTop="-60dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvFeature1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="🍽️ Create and customize your own meals"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/tvFeature2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="📌 Edit, delete, and mark meals as favorite"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/tvFeature3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="🛒 Add meals to your grocery list easily"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/tvFeature4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="✅ Mark groceries as done when bought"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/tvFeature5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="📤 Share meal details via SMS"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:alpha="0"/>
+</LinearLayout>

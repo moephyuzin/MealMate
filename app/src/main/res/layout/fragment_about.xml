@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Section: App Purpose -->
+        <TextView
+            android:id="@+id/tvAppPurpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 📌 App Purpose"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvAppPurposeDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          •MealMate is designed to make meal planning simple and stress-free. Whether you're a student or a busy professional, we've got your meal prep covered!"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:paddingBottom="12dp"/>
+
+        <!-- Section: Key Features -->
+        <TextView
+            android:id="@+id/tvFeatures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 🔹 Key Features Overview"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvFeaturesDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓ Create and manage meal plans.\n✓ Generate shopping lists.\n✓ Recipe suggestions.\n✓ Schedule meals with reminders.\n✓ Share grocery lists and meal plans."
+            android:textSize="16sp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:paddingBottom="12dp"/>
+
+        <!-- Section: Target Users -->
+        <TextView
+            android:id="@+id/tvTargetUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 🎯 Target Users"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvTargetUsersDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          •Designed for university students, busy families, fitness enthusiasts, and those managing dietary needs."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:paddingBottom="12dp"/>
+
+        <!-- Section: How It Works -->
+        <TextView
+            android:id="@+id/tvHowItWorks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. 🛠 How It Works"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvHowItWorksDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          •Plan your week by selecting recipes, and we’ll create a shopping list for you. Add ingredients as you go, mark items bought, and track your meal schedule."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:paddingBottom="12dp"/>
+
+        <!-- Section: Developer Info -->
+        <TextView
+            android:id="@+id/tvDeveloperinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. 👨‍💻 Developer Info (Optional)"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvDeveloperinfoDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•Developed by Ziv. \n•Contact us at: ziv@mealmate.com."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginLeft="50dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:paddingBottom="12dp"/>
+
+        <!-- Section: Privacy & Security -->
+        <TextView
+            android:id="@+id/tvPrivacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. 🔒 Privacy &amp; Security Statement (Optional)"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvPrivacyDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          •We respect your privacy and do not share your data with third parties."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingBottom="12dp"/>
+
+        <!-- Section: Acknowledgments -->
+        <TextView
+            android:id="@+id/tvAcknowledgments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. 🙏 Acknowledgments &amp; Credits"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvAcknowledgmentsDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          •Built using modern Android frameworks and open-source libraries. Special thanks to contributors."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:paddingBottom="12dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+</ScrollView>

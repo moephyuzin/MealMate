@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MealMate</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="grocery_list">Grocery List</string>
+<!--    <string name="google_maps_key">AIzaSyB7ET0wK6NMm1PX1HUAThIjfDbCxXq_A6c</string>-->
+        <string name="google_maps_key">AIzaSyCgt7HLKW7lLosQENvQpjmEmFcG2Vrc1Ak</string>
+
+</resources>
